@@ -1,0 +1,62 @@
+package lecture2;
+
+public class datatypes {
+
+	public static void main(String[] args) {
+		
+		// Datatypes 
+		
+	//byte
+	byte minbyte = Byte.MIN_VALUE;
+	byte maxbyte = Byte.MAX_VALUE;
+	
+	System.out.println("Min value byte = " + minbyte);
+	System.out.println("Max value byte = " + maxbyte);
+	
+	 //short
+	short minshort = Short.MIN_VALUE;
+	short maxshort = Short.MAX_VALUE;
+		
+	System.out.println("Min value short = " + minshort);
+	System.out.println("Max value short = " + maxshort);
+	
+	//integer
+	int minint = Integer.MIN_VALUE;
+	int maxint = Integer.MAX_VALUE;
+		
+	System.out.println("Min value integer = " + minint);
+	System.out.println("Max value integer = " + maxint);
+		
+	//long
+	long minlong = Long.MIN_VALUE;
+	long maxlong = Long.MAX_VALUE;
+				
+	System.out.println("Min value Long = " + minlong);
+	System.out.println("Max value Long = " + maxlong);
+	
+	// float
+	float minfloat = Float.MIN_VALUE;
+	float maxfloat = Float.MAX_VALUE;
+			
+	System.out.println("Min value Float = " + minfloat);
+	System.out.println("Max value Float = " + maxfloat);
+	
+	   //Double
+	double mindouble = Double.MIN_VALUE;
+	double maxdouble = Double.MAX_VALUE;
+			
+	System.out.println("Min value Double = " + mindouble);
+	System.out.println("Max value Double = " + maxdouble);
+
+	// character
+     char chr = 't';
+     System.out.println("character: "+ chr);
+     
+     // string 
+     String str = "Hello Java !";
+     System.out.println(str);
+     
+     
+     
+	}
+}
