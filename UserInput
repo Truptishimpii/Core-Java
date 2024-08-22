@@ -1,52 +1,56 @@
-/******************************************************************************
-
-                            Online Java Compiler.
-                Code, Compile, Run and Debug java program online.
-Write your code in this editor and press "Run" button to execute it.
-
-*******************************************************************************/
-
-
+package UserInput;
 import java.util.Scanner;
-public class Main
-{
+
+public class assesment {
+
 	public static void main(String[] args) {
-	    Scanner sc = new Scanner(System.in);
-	    
-	    System.out.println("-- Input Section ");
-		System.out.println("Enter Student Name: ");
-		String name = sc.next();
-		System.out.println("Enter Roll Number : ");
-		int rolln = sc.nextInt();
-		System.out.println("Enter Class : ");
-		String classs = sc.next();
-		System.out.println("Enter Java Marks: ");
-		int java = sc.nextInt();
-		System.out.println("Enter C++ Marks: ");
-		int cpp = sc.nextInt();
-		System.out.println("Enter python Marks: ");
-		int python = sc.nextInt();
-		System.out.println("Enter Ruby Marks: ");
-		int ruby = sc.nextInt();
-		System.out.println("Enter SQL Marks: ");
-		int sql = sc.nextInt();
-		
-		
-		System.out.println("-- Output Section");
-		System.out.println("Student Name: " + name);
-		System.out.println("Roll Number: " + rolln);
-		System.out.println("Class: " + classs);
-		System.out.println("Java marks: " + java + "/100");
-		System.out.println("C++ marks: " + cpp + "/100");
-		System.out.println("Python marks: " + python + "/100");
-		System.out.println("Ruby marks: " + ruby+ "/100");
-		System.out.println("SQL marks: " + sql+ "/100");
-		
-		
-		System.out.println("Total = "+ (java+cpp+python+ruby+sql)); 
-		int total = sc.nextInt();
-		System.out.println("Percentage % : " + (500/total*100) );
-		
-	
-	}
+		 {
+Scanner sc = new Scanner(System.in);
+
+System.out.println("-- Input Section ");
+System.out.println("Enter Student Name: ");
+String name = sc.next();
+System.out.println("Enter Roll Number : ");
+int rolln = sc.nextInt();
+System.out.println("Enter Class : ");
+String classs = sc.next();
+System.out.println("Enter Java Marks: ");
+int java = sc.nextInt();
+System.out.println("Enter C++ Marks: ");
+int cpp = sc.nextInt();
+System.out.println("Enter python Marks: ");
+int python = sc.nextInt();
+System.out.println("Enter Ruby Marks: ");
+int ruby = sc.nextInt();
+System.out.println("Enter SQL Marks: ");
+int sql = sc.nextInt();
+
+
+
+
+System.out.println("-- Output Section");
+System.out.println("Student Name: " + name);
+System.out.println("Roll Number: " + rolln);
+System.out.println("Class: " + classs);
+System.out.println("Java marks: " + java + "/100");
+System.out.println("C++ marks: " + cpp + "/100");
+System.out.println("Python marks: " + python + "/100");
+System.out.println("Ruby marks: " + ruby+ "/100");
+System.out.println("SQL marks: " + sql+ "/100");
+
+
+ 
+int total = java+cpp+python+ruby+sql;
+
+System.out.println("Total = "+ total);
+
+int per = (total*100)/500;
+
+System.out.println("Percentage % : " + per );
+
+
 }
+}
+
+}
+
