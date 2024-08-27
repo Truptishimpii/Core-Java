@@ -13,7 +13,7 @@ public class calculator_switch {
 		num1 =sc.nextInt();
 		System.out.println("Enter Number 2 : ");
 		num2 = sc.nextInt();
-		System.out.println("Enter Operator: ");
+		System.out.println("Choose a operator : +, -, *, / : ");
 		opt = sc.next().charAt(0);
 		
 		switch(opt) {
