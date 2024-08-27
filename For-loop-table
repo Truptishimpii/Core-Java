@@ -1,0 +1,24 @@
+package aug_2024;
+import java.util.*;
+public class For_loop {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+		// for loop
+		// Start point 
+		// end point (condition)
+		// print output
+		// ++/--
+		
+		int num;
+		
+		System.out.println("Enter a number: ");
+		num = sc.nextInt();
+		
+		for(int a=1 ; a<=10; a++) {
+			System.out.println(num+"*"+a+"="+num*a);
+		}
+		
+	}
+
+}
