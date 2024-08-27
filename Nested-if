@@ -1,0 +1,24 @@
+package aug_2024;
+
+public class nesated_if {
+
+	public static void main(String[] args) {
+		int n1=20;
+		int n2=100;
+		int n3=75;
+		int n4=55;
+		
+		if(n1>n2 && n1>n3 && n1>n4) {
+			System.out.println("Number1 is Greater....");
+		}else if(n2>n1 && n2>n3 && n2>n4) {
+			System.out.println("Number2 is Greater....");
+		}else if(n3>n1 && n3>n2 && n3>n4) {
+			System.out.println("Number3 is Greater...");
+		}else {
+			System.out.println("Number4 is Greater....");
+		
+		}
+
+	}
+
+}
