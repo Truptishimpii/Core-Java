@@ -19,7 +19,7 @@ public class method_overloading {
 	public static void main(String[] args) {
 		method_overloading method = new method_overloading();
 		// method(name created) is object 
-	// calling contructor through object & overloading through datatypes.
+	
 		method.info();
 		method.info("Trupti");
 		method.info(20,5.3f);
